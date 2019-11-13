@@ -1,0 +1,178 @@
+#list_of_alum {
+	width: 100%;
+	margin: 100px auto;
+	height: 100%;
+	float: right;
+}
+.header-title {
+	width: 98%;
+	height: 150px;
+	margin-top: -17px;
+	border-radius: 4px;
+}
+.tempMenu {
+	width: calc( 100% - 280px );
+	float: right;
+	margin-right: 14px;
+	transition: all .3s ease-in-out;
+}
+/*Header alumni Style*/
+
+#header-alumni  {
+	border: 1px solid #cfdbe2;
+	padding: 17px;
+	border-radius: 4px;
+}
+#header-alumni > span {
+	padding: 5px 10px;
+	color: #929292;
+	font-size: 1.5rem;
+}
+.table-alums {
+	padding: 20px;
+	height: 400px;
+	display: flex;
+	transition: all .3s ease-in-out;
+}
+.thead {
+	width: 100%;
+	border: 1px solid #cfdbe2;
+	transition: all .3s ease-in-out;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+.thead tr {
+	border-bottom: 1px solid #cfdbe2;
+	border-top: 1px solid #cfdbe2;
+	padding-left: 15px;
+}
+#t-up > th {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.thead tr > th {
+	text-align: center;
+	padding-left: 20px;
+}
+#b-l > td {
+	font-size: 11px;
+}
+.tmpP {
+	padding: 20px 0px;
+	transition: all .3s ease-in-out;
+}
+.tmpW {
+	width: 100%;
+	transition: all .3s ease-in-out;
+}
+.showProf {
+	width:calc( 100% / 2 );
+	display: none;
+	transition: all .3s ease-in-out;
+}
+.showTmp {
+	display: inline-block;
+}
+
+.pro-wrp {
+	/*height: 200px;*/
+	border-bottom: 1px solid #cfdbe2;
+	box-shadow: 0px 1px 22px 13px #e3dada;
+	border-radius: 11px;
+	transition: all .4s ease-in-out;
+}
+.pro-img {
+	width: 90px;
+	height: 90px;
+	/*background-color: red;*/
+	border-radius: 50%;
+	top: 100px;
+	left: -100px;
+	border: 3px solid #fff;
+}
+#p-action-btn {
+	/*display: flex;*/
+}
+.more {
+	width: 100px !important;
+	border: none !important;
+	text-decoration: underline;
+	font-style: italic;
+	color: #333 !important;
+	margin-left: 40px;
+	margin-right: -50px;
+}
+.reMvPrev {
+	width: 90px;
+	padding: 2px 10px;
+	margin-top: 10px;
+	border-radius: 30px;
+	border: 1px solid #16c1c2;
+	color: #333;
+	background: none;
+	cursor: pointer;
+}
+/*Dashboard menu response*/
+.dashTmp {
+	width: calc( 100% - 250px );
+	float: right;
+	transition: all .3s ease-in-out;
+}
+
+
+.p-admin {
+	width: calc( (100% / 3 ) - 21px);
+	border: 1px solid #999;
+	margin: 4px 3px;
+	padding: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+	display: inline-block;
+}
+.p-admin:hover {
+	box-shadow: 0px 1px 3px 1px #999;
+}
+#post-img {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+.con- > p {
+	color: #666;
+	font-size: 17px;
+	line-height: 1.1;
+	padding: 10px 0px;
+	text-align: justify;
+}
+.cont {
+	display: block;
+	height: auto;
+	position: absolute;
+}
+#btn-content-up > button, #btn-content-up > a > button  {
+	width: 74px;
+	padding: 3px 10px;
+	border: 1px solid #999;
+	border-radius: 30px;
+	font-size: 11px;
+	color: #fff;
+	background-color: #16c1c2;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+#cont-img {
+	display: flex;
+	flex-direction: column;
+	top: -54px;
+	position: relative;
+	left: 5px;
+	width: 141px;
+	text-align: center;
+}
+#introProf {
+	width: calc( 100% - 145px);
+	padding: 20px;
+	color: #555;
+	text-align: justify;
+}

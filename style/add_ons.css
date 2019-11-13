@@ -1,0 +1,234 @@
+.r-msg-wrapper {
+    width: 100%;
+    height: 60px;
+    /*background-color: #f3f3f3;*/
+    border-bottom: 1px solid #999;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    /*border-radius: 3px;*/
+    color: #222;
+}
+.sender-recent-msg {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #3C424D;
+	margin:5px;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.sender-recent-msg > img {
+	width: 200%;
+}
+.green-wrp {
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    padding: 2px;
+    margin: 33px;
+}
+.green-icon {
+	width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    border: 2px solid green;
+    /*margin-right: 0;*/
+}
+#o-user:hover{
+	background-color: #3C424D !important;
+}
+#o-user:hover .recent-msg-wrap {
+	color: #fff !important;
+}
+#o-user:hover .r-msg-wrapper {
+	border:none;
+}
+.recent-msg-wrap {
+	width:calc( 100% - 50px );
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	margin-top: 13px;
+	transition: all .3s ease-in-out;
+}
+.recent-msg-head {
+	font-size: 14px;
+    font-weight: 600;
+}
+.recent-msg {
+	font-size: 13px;
+    padding-right: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/*Online user
+in this part
+design*/
+.o-alum {
+	width: 35px;
+	height: 35px;
+}
+.o-alum-icon {
+	margin: 24px;
+}
+.notification {
+	vertical-align: middle;
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+div.drop-down-notification {
+	width: 250px;
+	height: auto !important;
+	background-color: #fdfdfd;
+	position: absolute;
+	margin-left: -175px;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	/* border: 1px solid #999; */
+	border-radius: 5px;
+	box-shadow: 1px 0px 7px #22222247;
+	display: none;
+	-webkit-animation-name: animateTop;
+	-webkit-animation-duration: 0.7s;
+	animation-name: animateTop;
+	animation-duration: 0.7s;
+}
+.notification:hover .drop-down-notification,
+.message:hover .drop-down-message,
+.profile:hover .drop-down-profile {
+	display: block;
+}
+div.drop-down-notification .fa-caret-up, div.drop-down-message .fa-caret-up, div.drop-down-profile .fa-caret-up {
+	font-size: 25px;
+	margin-top: -14px;
+	position: absolute;
+	right: 0;
+	/* color: #99999921; */
+}
+@keyframes animateTop{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.drop-notif > span {
+	padding:10px;
+}
+.notif-msg {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	float: right;
+	padding:3px;
+	border-bottom: 1px solid #222;
+}
+.notif-msg:hover {
+	background-color: #f3f3f3;
+	cursor: pointer;
+}
+.notif-head {
+	width: 35px;
+	height: 35px;
+	border-radius: 30px;
+	background-color: #333;
+}
+.notif-content {
+	width: 210px;
+	padding:5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	margin-top: -5px;
+
+}
+.notif-content > span {
+	font-size: 14px;
+	margin-top: -5px;
+	position: relative;
+	color: #777 !important;
+	font-weight: 500;
+}
+.notif-content > p {
+	font-size: 12px;
+	color: #888;
+}
+
+/*About add on css*/
+.list-items {
+	transition: all .3s ease-in-out !important;
+}
+.i:hover {
+	border-left: 2px solid #222;
+	background-color: #999;
+	cursor: pointer;
+}
+
+/*Overview Container*/
+.overview {
+	width: 100%;
+}
+.overview header {
+	width: calc( 100% - 40px );
+	margin: 0 auto;
+	background-color: #f3f3f3;
+	color: #222;
+	padding: 20px 10px;
+}
+
+.wraper-ed {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+.w-ed {
+	width: 70px;
+	min-height: 100%;
+	background-color: blue;
+	margin:5px;
+}
+.sub-btn-save {
+
+}
+
+/*Education edit and update*/
+#caret-t {
+	position: absolute;
+    top: -15px;
+    color: #f3f3f3;
+    right: 0;
+    font-size: 24px;
+}
+#drpCaret {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    position: absolute;
+    right: 0;
+    margin: 5px;
+    top: 20px;
+    padding: 3px;
+    font-size: 13px;
+    box-shadow: 0px 1px 5px 0px #999;
+    border-radius: 3px;
+    color: #666;
+}
+
+.edUpdate:hover #drpCaret {
+	display: block !important;
+}
